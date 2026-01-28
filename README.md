@@ -3,6 +3,9 @@
 
 # NVIDIA Earth2Studio
 
+> **Fork Information:** This is a community fork maintained by [synapticore](https://github.com/synapticore).
+> For the official NVIDIA repository, see [NVIDIA/earth2studio](https://github.com/NVIDIA/earth2studio).
+
 [![python version][e2studio_python_img]][e2studio_python_url]
 [![license][e2studio_license_img]][e2studio_license_url]
 [![coverage][e2studio_cov_img]][e2studio_cov_url]
@@ -90,6 +93,28 @@ run(["2025-01-01T00:00:00"], 4, model, data, io)
 > model/data source.
 
 [![Watch the video](https://img.youtube.com/vi/Sog6aCapZeA/hqdefault.jpg)](https://www.youtube.com/watch?v=Sog6aCapZeA)
+
+## Fork-Specific Features and Documentation
+
+This fork provides additional resources and documentation to help users get started,
+especially those working with limited hardware resources or offline environments:
+
+- **[Fork Maintenance Guide](FORK_GUIDE.md)** - Best practices for maintaining this fork
+- **[Local Deployment Guide](LOCAL_DEPLOYMENT.md)** - Complete guide for offline/air-gapped deployment
+- **[GPU Optimization Guide](GPU_OPTIMIZATION.md)** - Run models on consumer GPUs (8-16GB)
+- **[Known Issues](KNOWN_ISSUES.md)** - Common problems and workarounds
+- **[Roadmap](ROADMAP.md)** - Fork development plan and goals
+- **[Security Policy](SECURITY.md)** - Security guidelines and vulnerability reporting
+
+### Fork Philosophy
+
+This fork focuses on:
+- **Accessibility** - Making AI weather models available on consumer hardware
+- **Documentation** - Comprehensive guides for various deployment scenarios
+- **Optimization** - Memory and performance improvements for limited resources
+- **Community** - Building a supportive community around Earth2Studio
+
+We actively sync with upstream NVIDIA/earth2studio and aim to contribute improvements back when appropriate.
 
 ## Latest News
 
