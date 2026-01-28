@@ -7,7 +7,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.12.0a0] - 2026-01-xx
+## [0.13.0a0] - 2026-03-xx
+
+### Added
+
+- Added onnxscript to onnx models to add support for newer torch versions
+- Moved lock file / CI system to torch 2.9.1
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.12.0] - 2026-01-26
 
 ### Added
 
@@ -26,16 +43,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated GFS lexicon to include composite reflectivity
 - Moved most data sources from cfgrib to pygrib
 
-### Deprecated
-
-### Removed
-
 ### Fixed
 
 - Made tp in HRRR and GFS units m for package consistency
 - Fixed batched inference support for AIFS and AIFS ENS
-
-### Security
 
 ### Dependencies
 
