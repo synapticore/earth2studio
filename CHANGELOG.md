@@ -11,7 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Added NOAA UFS observation dataframe sources for satellite and conventional data
+- Added Earth2Studio base schema for dataframe sources
+- Added Planetary Computer data source for ECMWF IFS analysis data
+- Added accumulated variable support to NCAR ERA5 data source
+
 ### Changed
+
+- Changed ISD data frame return to master schema
 
 ### Deprecated
 
@@ -19,9 +26,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Bug in cbottle datasource resulting identical samples for multiple samples
+
 ### Security
 
 ### Dependencies
+
+- Added pyarrow explicitly to core dependencies
 
 ## [0.12.1] - 2026-01-29
 
@@ -75,7 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added MRMS data source
 - Added IFS and IFS-ENS initial state datasources
 - Local datasource example
-- Added ``TimeWindow`` datasource wrapper for fetching data at multiple time offsets
+- Added `TimeWindow` datasource wrapper for fetching data at multiple time offsets
 - Added NOAA's Integrated Surface Database (ISD) data frame source
 
 ### Changed
